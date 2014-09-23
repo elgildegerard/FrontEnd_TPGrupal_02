@@ -1,0 +1,39 @@
+body {
+    font-family: 'Bitter', serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    background: url('../img/bckg_home.png') no-repeat center;
+    width: 100%;
+    height: 500px;
+        
+    & nav {
+        overflow: hidden;    
+    }
+    
+    & nav ul {
+        width: 883px;
+        margin: 20px auto;
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        display: block;
+        
+    }
+    
+    & nav ul li {
+        display: block;
+        float: left;
+        margin: 30px 20px;
+        text-align: center;
+    }
+    
+    & nav ul li a {
+        float: left;
+        margin: 0 20px;
+        display: block;
+    }
+}
