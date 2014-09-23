@@ -20,8 +20,7 @@ body {
         list-style: none;
         overflow: hidden;
         padding: 0;
-        display: block;
-        
+        display: block;   
     }
     
     & nav ul li {
@@ -30,10 +29,15 @@ body {
         margin: 30px 20px;
         text-align: center;
     }
+
+.about {
+    margin: 0 auto;
+    overflow: hidden;
+}
     
-    & nav ul li a {
-        float: left;
-        margin: 0 20px;
-        display: block;
-    }
+.tittle {
+    background: url('../img/about_bck.png') no-repeat center;
+    width: 600px;
+}
+
 }
