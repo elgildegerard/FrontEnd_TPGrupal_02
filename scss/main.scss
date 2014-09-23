@@ -78,3 +78,21 @@ h3 {
     padding: 50px 40px;
     text-align: center;
 }
+
+.images {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    
+    
+    & ul {
+        margin: 0;
+        padding: 0;
+        clear: both;
+        list-style: none;
+        
+        & li {
+            float: left;
+        }
+    }
+}
