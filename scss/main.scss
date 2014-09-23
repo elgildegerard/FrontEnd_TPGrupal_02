@@ -1,8 +1,12 @@
+//ESTILOS GENERALES
+
 body {
     font-family: 'Bitter', serif;
     width: 1200px;
     margin: 0 auto;
 }
+
+//HEADER
 
 .header {
     margin: 0 auto;
@@ -30,6 +34,8 @@ body {
         text-align: center;
     }
 
+//ABOUT
+    
 .about {
     margin: 0 auto;
     overflow: hidden;
@@ -37,7 +43,11 @@ body {
     
 .tittle {
     background: url('../img/about_bck.png') no-repeat center;
+    display: block;
     width: 600px;
+    height: 400px;
+    overflow: hidden;
+    float: left
 }
 
 }
