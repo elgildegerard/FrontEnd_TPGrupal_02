@@ -61,7 +61,7 @@ h3 {
         text-decoration: none;
         color: black;
         font-size: 22px;
-        border: black 7px solid;
+        border: 7px solid black;
         padding: 34px 40px;
         position: absolute;
         left: 250px;
@@ -96,8 +96,26 @@ h3 {
             float: left;
         }
     }
+    
 }
 .gallery {
+    max-width: 1200px;
     float: left;
     
+    img {
+        width: 200px;
+    }
+    
+    & ul {
+        margin: 0;
+        padding: 0;
+        clear: both;
+        list-style: none;
+        
+        & li {
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+    }
 }
