@@ -136,9 +136,10 @@ h3 {
 
 .team_gallery {
     div {
+        @include color-maron;
         width: 500px;
         height: 500px;
-        @include color-maron;
         float: left;
+        border: 1px solid red; // Para ver provisoriamente los divs
     }
 }
