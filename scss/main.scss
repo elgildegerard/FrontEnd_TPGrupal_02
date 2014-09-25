@@ -46,7 +46,7 @@ h3 {
     overflow: hidden;
 }
     
-.tittle {
+.title {
     background: url('../img/about_backgr.png') no-repeat center;
     display: block;
     width: 750px;
@@ -79,10 +79,11 @@ h3 {
     text-align: center;
 }
 
-.images {
+.about_images {
     clear: both;
     padding: 0;
     margin: 0;
+    max-width: 1200px;
     
     
     & ul {
