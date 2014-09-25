@@ -7,7 +7,7 @@ body {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 //HEADER
@@ -17,11 +17,11 @@ h3 {
     background: url('../img/bckg_home.png') no-repeat center;
     width: 100%;
     height: 500px;
-        
+
     & nav {
         overflow: hidden;    
     }
-    
+
     & nav ul {
         width: 883px;
         margin: 20px auto;
@@ -30,7 +30,7 @@ h3 {
         padding: 0;
         display: block;   
     }
-    
+
     & nav ul li {
         display: block;
         float: left;
@@ -40,12 +40,12 @@ h3 {
 }
 
 //ABOUT
-    
+
 .about {
     margin: 0 auto;
     overflow: hidden;
 }
-    
+
 .tittle {
     background: url('../img/about_backgr.png') no-repeat center;
     display: block;
@@ -55,17 +55,15 @@ h3 {
     float: left;
     text-align: center;
     position: relative;
-        
+
     & a {
-        text-align: center;
         text-decoration: none;
         color: black;
-        font-size: 22px;
-        border: black 7px solid;
-        padding: 34px 40px;
-        position: absolute;
-        left: 250px;
-        top: 150px;
+        font-size: 23px;
+        border: black 10px solid;
+        padding: 25px;
+        position: relative;
+        top: 250px;
     }
 }
 
@@ -83,20 +81,47 @@ h3 {
     clear: both;
     padding: 0;
     margin: 0;
-    
-    
+
+
     & ul {
         margin: 0;
         padding: 0;
         clear: both;
         list-style: none;
-        
+
         & li {
             float: left;
+            margin: 0;
+            padding: 0;
+            height: 250px;
         }
     }
 }
 .gallery {
     float: left;
-    
+    background-color: #afac9c;
+    & a {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 23px;
+        border: black 10px solid;
+        padding: 34px 40px;
+        position: relative;
+        top: 140px;
+    }
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+    }
+    & li {
+        float: left;
+        height: 300px;
+        text-align: center;
+    }
+    & .block_gallery {
+        width: 600px;
+    }
 }
