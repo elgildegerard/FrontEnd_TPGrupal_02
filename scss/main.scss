@@ -133,3 +133,12 @@ h3 {
         width: 300px;
     }
 }
+
+.team_gallery {
+    div {
+        width: 500px;
+        height: 500px;
+        @include color-maron;
+        float: left;
+    }
+}
